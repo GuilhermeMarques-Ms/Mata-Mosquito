@@ -1,0 +1,90 @@
+html{
+	cursor: url(imagens/mata_mosca.png) 30 30 , auto;
+}
+
+
+body{
+	background-image: url(imagens/bg.jpg);
+	background-repeat: no-repeat;	
+	
+}
+
+
+.mosquito1{
+	width: 50px;
+	height: 50px;
+}
+
+.mosquito2{
+	width: 70px;
+	height: 70px;
+}
+
+.mosquito3{
+	width: 90px;
+	height: 90px;
+}
+
+.ladoA{
+	transform: scaleX(1);
+}
+
+.ladoB{
+	transform: scaleX(-1);
+}
+
+.painel{
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	bottom: 0px;
+	left: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.vidas{
+	float: left;
+}
+
+.cronometro{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	body{
+		background-size: 160%;
+	}
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	body{
+		background-size: 135%;
+	}
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	body{
+		background-size: 100%;
+	}
+ }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	body{
+		background-size: 105%;
+	}
+ }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	body{
+		background-size: 105%;
+	}
+ }
